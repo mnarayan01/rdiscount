@@ -78,6 +78,10 @@ main()
     KW("IFRAME");
     KW("MAP");
 
+    KW("FIGURE");
+    KW("NAV");
+    KW("SECTION");
+
     qsort(T(blocktags), S(blocktags), sizeof(struct kw), (stfu)casort);
 
     printf("static struct kw blocktags[] = {\n");
